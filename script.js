@@ -69,7 +69,7 @@ document.getElementById("tdee").addEventListener("submit", function (e) {
   sendToApi({ type: "tdee", weight, height, age, activity, gender }, "tdee");
 });
 
-// Body Fat
+// Yağ Oranı
 document.getElementById("bodyfat").addEventListener("submit", function (e) {
   e.preventDefault();
   const weight = +document.getElementById("bfWeight").value;
@@ -79,7 +79,7 @@ document.getElementById("bodyfat").addEventListener("submit", function (e) {
   sendToApi({ type: "bodyfat", weight, waist, neck, height }, "bodyFat");
 });
 
-// Ideal Weight
+// İdeal Kilo
 document.getElementById("ideal").addEventListener("submit", function (e) {
   e.preventDefault();
   const height = +document.getElementById("idealHeight").value;
