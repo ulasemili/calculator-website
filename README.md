@@ -1,1 +1,1 @@
-AWS S3 - API Gateway - Lambda
+AWS -> S3 - API Gateway - Lambda
